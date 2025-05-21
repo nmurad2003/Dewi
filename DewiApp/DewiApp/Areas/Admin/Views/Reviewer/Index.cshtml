@@ -1,0 +1,60 @@
+﻿@using DewiApp.ViewModels.ReviewerVMs
+@model List<ReviewerGetVM>
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Positions</h1>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <a class="btn btn-primary" asp-action="Create">
+                Create
+            </a>
+        </div>
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Image</th>
+                            <th>Full Name</th>
+                            <th>Position</th>
+                            <th>Review</th>
+                            <th>Rating</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (ReviewerGetVM item in Model)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td>
+                                    <img width="60" height="60" src="@item.ImagePath" />
+                                </td>
+                                <td>@item.FirstName @item.LastName</td>
+                                <td>@item.Position.Name</td>
+                                <td>@item.Review</td>
+                                <td>@item.Rating</td>
+                                <td>
+                                        <a asp-action="Update" class="btn btn-warning" asp-route-id="@item.Id">Edit</a>
+                                        <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Id">Delete</a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\l novbe\\Desktop\\Murad\\DewiApp\\",
+  "WorkspaceRootPath": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewiapp\\dewiapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewi\\dewiapp\\dewiapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewiapp\\dewiapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewi\\dewiapp\\dewiapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewi\\dewiapp\\dewiapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewi\\dewiapp\\dewiapp\\viewmodels\\accountvms\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\viewmodels\\accountvms\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewi\\dewiapp\\dewiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewi\\dewiapp\\dewiapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|c:\\users\\l novbe\\desktop\\murad\\dewi\\dewiapp\\dewiapp\\viewmodels\\accountvms\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B604CC01-0964-4667-8393-28DFAAD04947}|DewiApp\\DewiApp.csproj|solutionrelative:dewiapp\\viewmodels\\accountvms\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 470,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\DewiApp\\DewiApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DewiApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\DewiApp\\DewiApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DewiApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "DewiApp\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Models\\AppUser.cs",
+              "RelativeToolTip": "DewiApp\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T05:06:38.568Z",
+              "WhenOpened": "2025-05-21T09:41:21.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\DewiApp\\DewiApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DewiApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\DewiApp\\DewiApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DewiApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Program.cs",
+              "RelativeDocumentMoniker": "DewiApp\\Program.cs",
+              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Program.cs",
+              "RelativeToolTip": "DewiApp\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:13:02.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DewiApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DewiApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:04:09.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\ViewModels\\AccountVMs\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "DewiApp\\ViewModels\\AccountVMs\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\ViewModels\\AccountVMs\\RegisterVM.cs",
+              "RelativeToolTip": "DewiApp\\ViewModels\\AccountVMs\\RegisterVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:31:17.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "DewiApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "DewiApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T05:06:58.146Z",
+              "WhenOpened": "2025-05-21T08:28:57.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\ViewModels\\AccountVMs\\LoginVM.cs",
+              "RelativeDocumentMoniker": "DewiApp\\ViewModels\\AccountVMs\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\ViewModels\\AccountVMs\\LoginVM.cs",
+              "RelativeToolTip": "DewiApp\\ViewModels\\AccountVMs\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:31:27.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DewiApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\l novbe\\Desktop\\Murad\\Dewi\\DewiApp\\DewiApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "DewiApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T08:30:12.779Z",
               "EditorCaption": ""
             }
           ]

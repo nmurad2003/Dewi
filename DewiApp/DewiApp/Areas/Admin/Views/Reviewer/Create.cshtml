@@ -1,0 +1,52 @@
+﻿@using DewiApp.ViewModels.PositionVMs
+@using DewiApp.ViewModels.ReviewerVMs
+@model ReviewerCreateVM
+
+<div class="container-fluid">
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="FirstName">First Name</label>
+            <input asp-for="FirstName" type="text" class="form-control" placeholder="Type here...">
+            <span asp-validation-for="FirstName" class="text-danger sm"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="LastName">Last Name</label>
+            <input asp-for="LastName" type="text" class="form-control" placeholder="Type here...">
+            <span asp-validation-for="LastName" class="text-danger sm"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Review">Review</label>
+            <input asp-for="Review" type="text" class="form-control" placeholder="Type here...">
+            <span asp-validation-for="Review" class="text-danger sm"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Rating">Rating</label>
+            <input asp-for="Rating" type="number" class="form-control" placeholder="Type here...">
+            <span asp-validation-for="Rating" class="text-danger sm"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PositionId">Position</label>
+            <select asp-for="PositionId">
+                @foreach (PositionGetVM item in ViewBag.Positions)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+            <span asp-validation-for="PositionId" class="text-danger sm"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Image">Review</label>
+            <input asp-for="Image" type="file" class="form-control" placeholder="Type here...">
+            <span asp-validation-for="Image" class="text-danger sm"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Create
+        </button>
+    </form>
+</div>

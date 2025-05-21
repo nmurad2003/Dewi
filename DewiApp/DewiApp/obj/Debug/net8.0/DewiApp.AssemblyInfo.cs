@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DewiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a735893018e7ba9f506f87d9de7bc785c39706b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("DewiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DewiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

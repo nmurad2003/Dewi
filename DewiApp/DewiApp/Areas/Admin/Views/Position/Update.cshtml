@@ -1,0 +1,16 @@
+﻿@using DewiApp.ViewModels.PositionVMs
+@model PositionUpdateVM
+
+<div class="container-fluid">
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" type="text" class="form-control" placeholder="Type here...">
+            <span asp-validation-for="Name" class="text-danger sm"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Update
+        </button>
+    </form>
+</div>
